@@ -1,0 +1,24 @@
+NODE JS wrapper for OoyalaAPI client API (v2 fashion API with sha256 signing)
+
+
+Usage:
+
+var OoyalaApi = require("node-ooyala-api-client");
+
+
+
+var apiKey = "foo";
+var apiSecret = "foo secret";
+var client = new OoyalaApi( apiKey, apiSecret );
+
+var apiPath = "/test"
+var queryStringParams = { foo: 1 };
+client.get( apiPath, queryStringParam ).then( function( data ) {
+ console.log( data );
+});
+
+var body = "hello world";
+client.post( apiPath, queryStringParams, body ).then( function( data ) {
+ console.log( data );
+});
+

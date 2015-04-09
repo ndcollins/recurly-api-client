@@ -1,0 +1,48 @@
+{
+  "name": "recurly-api-client",
+  "preferGlobal": false,
+  "version": "1.0.0",
+  "author": "Nick Collins",
+  "description": "Recurly API Client",
+  "contributors": [
+    {
+      "name": "Nick Collins",
+      "email": "ndcollins@nc-design.net"
+    }
+  ],
+  "scripts": {
+  },
+
+  "main": "./index",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndcollins/recurly-api-client"
+  },
+
+  "keywords": [
+  ],
+
+  "dependencies": {
+    "lodash": "^3.2.0",
+    "q": "^1.1.2",
+    "superagent": "^0.21.0",
+    "crypto": "*"
+  },
+
+  "noAnalyze": true,
+
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+
+  "bundleDependencies": [
+  ],
+
+  "license": "MIT",
+
+  "engine": {
+    "node": "*"
+  }
+}
